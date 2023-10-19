@@ -1,0 +1,45 @@
+body {
+  background-color: #c00;
+  color: #fff;
+}
+
+#page_container {
+  margin: 100px auto 50px auto;
+  width: 640px;
+  text-align: center;
+  background-color: rgba(0, 0, 0, .3);
+  border-radius: 20px;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+#opaque_container {
+  margin: 0 auto;
+  width: 640px;
+  padding: 20px;
+  text-align: center;
+  background-image: url(https://previews.123rf.com/images/lianella/lianella1511/lianella151100021/48133054-Snowflake-Seamless-Pattern-Simple-Christmas-repeating-background-Stock-Vector.jpg);
+  background-repeat: repeat;
+  background-size: 200px 200px;
+  border-radius: 10px;
+  box-sizing: border-box;
+  box-shadow: 0 5px 5px rgba(0,0,0,0.5);
+}
+
+#opaque_container h2 {
+  font-size: 36px;
+  text-shadow: 0 0 5px rgba(0,0,0,1);
+}
+
+.title {
+  font-size: 80px;
+}
+
+.subtitle {
+  font-size: 30px;
+}
+
+#music {
+  position: fixed;
+  top: 110%; /* out of frame */
+}
